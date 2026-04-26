@@ -97,6 +97,7 @@ REGION_DEFAULTS: dict[str, dict] = {
     "IN": {"frequency_mhz": 865.4625, "name": "India 865"},
     "KR": {"frequency_mhz": 921.9, "name": "Korea 920"},
     "SG_923": {"frequency_mhz": 923.0, "name": "Singapore 923"},
+    "RU": {"frequency_mhz": 869.075, "name": "Russia 864"},
 }
 
 SUPPORTED_REGIONS = list(REGION_DEFAULTS.keys())

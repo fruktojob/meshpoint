@@ -74,5 +74,9 @@ class ConcentratorChannelPlan:
     def meshtastic_sg923_default() -> ConcentratorChannelPlan:
         raise RuntimeError(_CORE_MISSING)
 
+    @staticmethod
+    def meshtastic_ru864_default() -> ConcentratorChannelPlan:
+        raise RuntimeError(_CORE_MISSING)
+
     def to_hal_config(self) -> dict:
         raise RuntimeError(_CORE_MISSING)

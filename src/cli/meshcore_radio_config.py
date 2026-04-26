@@ -28,6 +28,7 @@ REGION_PRESETS: dict[str, RadioPreset] = {
     "US": RadioPreset("US  (910.525 MHz / BW62.5 / SF7 / CR5)", 910.525, 62.5, 7, 5),
     "EU": RadioPreset("EU  (869.618 MHz / BW62.5 / SF8 / CR8)", 869.618, 62.5, 8, 8),
     "ANZ": RadioPreset("ANZ (916.575 MHz / BW62.5 / SF7 / CR8)", 916.575, 62.5, 7, 8),
+    "RU": RadioPreset("RU  (869.075 MHz / BW62.5 / SF8 / CR8)", 869.075, 62.5, 8, 8),
 }
 
 _REBOOT_WAIT_SECONDS = 4

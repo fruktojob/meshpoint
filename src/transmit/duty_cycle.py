@@ -20,6 +20,7 @@ DUTY_CYCLE_LIMITS = {
     "IN": 100.0,
     "KR": 100.0,
     "SG_923": 100.0,
+    "RU": 100.0,
 }
 
 DEFAULT_WINDOW_SECONDS = 3600

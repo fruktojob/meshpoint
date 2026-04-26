@@ -28,7 +28,7 @@ _LOCAL_CONFIG_PATH = Path("config/local.yaml")
 
 PRESET_CHOICES = list(REGION_PRESETS.keys()) + ["custom"]
 
-_REGION_MAP = {"EU_868": "EU"}
+_REGION_MAP = {"EU_868": "EU", "RU": "RU"}
 
 
 def run_meshcore_radio(args: argparse.Namespace) -> None:

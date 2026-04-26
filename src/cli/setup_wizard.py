@@ -123,15 +123,16 @@ def _print_banner() -> None:
     print()
 
 
-SUPPORTED_REGIONS = ["US", "EU_868", "ANZ", "IN", "KR", "SG_923"]
+SUPPORTED_REGIONS = ["US", "EU_868", "ANZ", "IN", "KR", "SG_923", "RU"]
 
 _REGION_LABELS = {
     "US": "US      (902-928 MHz)",
-    "EU_868": "EU_868  (869 MHz -- Europe, Russia, Africa)",
+    "EU_868": "EU_868  (869 MHz -- Europe, Africa)",
     "ANZ": "ANZ     (915-928 MHz -- Australia, NZ)",
     "IN": "IN      (865-867 MHz -- India)",
     "KR": "KR      (920-923 MHz -- Korea)",
     "SG_923": "SG_923  (917-925 MHz -- Singapore, SE Asia)",
+    "RU": "RU      (868.7-869.2 MHz -- Russia)",
 }
 
 
